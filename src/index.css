@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* .hideScroll {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+} */
+::-webkit-scrollbar {
+    display: none;
+}
