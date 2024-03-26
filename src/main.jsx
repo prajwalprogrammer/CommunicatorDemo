@@ -78,7 +78,7 @@ const components = [{
   path: "/shop",
   errorElement: <NotFoundPage />,
 },]
-const router = createBrowserRouter(components,{ basename: "/CommunicatorDemo" });
+const router = createBrowserRouter(components,{ basename: import.meta.env.BASE_URL });
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
