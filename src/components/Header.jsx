@@ -8,7 +8,7 @@ const Header = ({name}) => {
 
     return (
         <div className='shadow-md z-50 w-full fixed top-0 left-0'>
-            <div className='md:flex items-center text-white  bg-red-600 py-4 md:px-10 px-7'>
+            <div className='flex items-center text-white  bg-red-600 py-4 md:px-10 px-7'>
                 {/* logo section */}
                 <div onClick={() => setOpen(!open)} className=' cursor-pointer w-7 h-7'>
                     {

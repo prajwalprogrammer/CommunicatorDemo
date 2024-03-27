@@ -20,7 +20,7 @@ function DrawerItem({ open, setopen }) {
             <p class="text-lg">Dublin, Ireland</p> */}
             {/* <div class="w-[80%] h-[1px] bg-black my-2" /> */}
 
-            <div class="flex  self-start pl-5">
+            <div class="flex  self-start pl-5 pb-2">
                 {/* <img src={logo} alt="Company Logo" class="w-[60px] h-[60px] rounded-full mb-1" /> */}
                 <div class="pl-4">
                     <p class="text-xl font-normal">Priya Pandey</p>
@@ -29,7 +29,6 @@ function DrawerItem({ open, setopen }) {
                 </div>
             </div>
 
-            <div class="w-[80%] h-[1px] bg-black my-2" />
 
             <div class="flex-grow flex text-black flex-col bg-white w-full items-start">
                 {Links.map((lk, i) => (
