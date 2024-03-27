@@ -4,8 +4,8 @@ function StudentBlog({name}) {
   return (
     <div><Header name={name} />
     
-    <div className=" w-full h-screen mt-20">
-      <p>Hello StudentBlog</p>
+    <div className="flex justify-center items-center w-full h-screen mt-20">
+      <p> StudentBlog Page</p>
       </div>
     </div>
   )

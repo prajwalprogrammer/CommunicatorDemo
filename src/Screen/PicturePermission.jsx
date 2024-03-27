@@ -4,8 +4,8 @@ function PicurePermission({name}) {
   return (
     <div><Header name={name} />
     
-    <div className=" w-full h-screen mt-20">
-      <p>Hello PicurePermission</p>
+    <div className="flex justify-center items-center w-full h-screen mt-20">
+      <p> PicurePermission Page</p>
       </div>
     </div>
   )

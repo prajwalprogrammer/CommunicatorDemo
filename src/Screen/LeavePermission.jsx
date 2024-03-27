@@ -4,8 +4,8 @@ function LeavePermission({name}) {
   return (
     <div><Header name={name} />
     
-    <div className=" w-full h-screen mt-20">
-      <p>Hello LeavePermission</p>
+    <div className="flex justify-center items-center w-full h-screen mt-20">
+      <p> LeavePermission Page</p>
       </div>
     </div>
   )

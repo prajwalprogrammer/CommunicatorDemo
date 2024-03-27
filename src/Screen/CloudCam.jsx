@@ -4,8 +4,8 @@ function CloudCam({name}) {
   return (
     <div><Header name={name} />
     
-    <div className=" w-full h-screen mt-20">
-      <p>Hello CloudCam</p>
+    <div className=" w-full flex justify-center items-center h-screen mt-20">
+      <p>CloudCam Page</p>
       </div>
     </div>
   )

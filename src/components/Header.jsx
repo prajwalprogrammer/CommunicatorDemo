@@ -15,7 +15,7 @@ const Header = ({name}) => {
                         open ? <XMarkIcon /> : <Bars3BottomRightIcon />
                     }
                 </div>
-                <div className='text-2xl font-semibold cursor-pointer flex items-center gap-1'>
+                <div className='text-2xl pl-4 font-semibold cursor-pointer flex items-center gap-1'>
                     <span>{name}</span>
                 </div>
                     <DrawerItem open={open} setopen={setOpen} />

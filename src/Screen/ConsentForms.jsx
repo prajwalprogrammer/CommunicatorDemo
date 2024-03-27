@@ -5,7 +5,7 @@ function ConsentForm({name}) {
     <div><Header name={name} />
     
     <div className=" w-full h-screen mt-20">
-      <p>Hello ConsentForm</p>
+      <p>ConsentForm Page</p>
       </div>
     </div>
   )
