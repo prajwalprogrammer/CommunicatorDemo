@@ -11,23 +11,23 @@ function Notification() {
         </div>
       ))}
     </div> */}
-      <Card title="Checking Cron" dis="2 days ago" />
+      <Card title="Medal presentation event" dis="2 days ago" />
       <div class="w-full h-[1px] bg-black my-2" /> 
 
-      <Card title="Hey Hey" dis="5 Mar" />
+      <Card title="Funeral Arrangements " dis="5 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
 
-      <Card title="Test" dis="4 Mar" />
+      <Card title="Greetings from the slopes!" dis="4 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
-      <Card title="QA2 Cron Check" dis="5 Mar" />
+      <Card title="The Lead up to Easter Hols" dis="5 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
-      <Card title="One More" dis="7 Mar" />
+      <Card title="Paris Day 3 " dis="7 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
-      <Card title="One More 2" dis="7 Mar" />
+      <Card title="Leaving Certificate Orals" dis="7 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
-      <Card title="One More 3" dis="7 Mar" />
+      <Card title="Mock Examination Reports " dis="7 Mar" />
       <div class="w-full h-[1px] bg-black my-2" /> 
-      <Card title="One More 5" dis="7 Mar" />
+      <Card title="5th year tour to Rome " dis="7 Mar" />
     </div>
   )
 }
